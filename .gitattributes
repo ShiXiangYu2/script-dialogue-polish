@@ -1,0 +1,10 @@
+# 统一换行符，避免 Windows 提交把 LF 改成 CRLF
+* text=auto eol=lf
+
+# Office 二进制文件不做换行转换
+*.docx binary
+*.xlsx binary
+*.pptx binary
+
+# 中文文档在 GitHub 上按文本统计语言
+*.md linguist-documentation

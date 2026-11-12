@@ -1,0 +1,19 @@
+# 工作流运行产物（不要提交）
+/parsed.json
+/examples/parsed.json
+/rewrite_map*.json
+/对照表.md
+/*_台词优化稿.docx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

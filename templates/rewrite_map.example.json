@@ -1,0 +1,7 @@
+{
+  "_说明": "改写映射模板。key = parse_dialogue.py 输出的段落 index（字符串）；value = 改写后的【整行文本】，必须保留「说话人：」前缀（os 行保留 os 后缀）。只能放 dialogue / os 行，不能放 △ 行、场次标题、音效标记。换剧本时请改用你自己 parsed.json 里的 index，不要照抄下面的数字。",
+  "_用法": "python3 scripts/parse_dialogue.py 剧本.docx -o parsed.json → 看 parsed.json 里目标段落的 index → 把 index 和改后全文填进来 → check_dialogue.py 机检 → apply_dialogue.py 落盘。",
+  "_示例来源": "examples/demo_rewrite_map.json 是一份可直接跑通的完整示例（虚构剧本《末班车》，9 条改动）。",
+  "0": "角色名：改写后的台词全文。",
+  "_备注行": "以下划线开头的 key 会被脚本忽略，可以随便写注释。"
+}
